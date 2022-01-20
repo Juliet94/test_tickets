@@ -1,0 +1,26 @@
+.input + .text {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #9f9e9e;
+    border-radius: 4px;
+    left: -25px;
+    top: -2px;
+  }
+}
+
+.input:hover + .text {
+  cursor: pointer;
+}
+
+.input:checked + .text::before {
+  border-color: #1ca5f2;
+  background-color: #c6e1f0;
+  background-image: url('./checked.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}

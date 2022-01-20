@@ -1,0 +1,60 @@
+.wrapper {
+  background-color: #ffffff;
+  padding: 20px 0;
+  box-shadow: 0 5px 6px rgba(63, 63, 63, 0.2);
+  border-radius: 4px;
+  min-width: 270px;
+  height: min-content;
+}
+
+.fieldset {
+  border: none;
+  padding: 0;
+}
+
+.legend {
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+.list_currency {
+  display: flex;
+  padding-left: 20px;
+}
+
+.list_stops {
+  display: flex;
+  flex-direction: column;
+}
+
+.stop_item {
+  padding-left: 40px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 30px;
+
+  &:hover {
+    background-color: #c6e1f0;
+  }
+}
+
+.button {
+  display: none;
+  text-transform: uppercase;
+  color: #1ca5f2;
+  background-color: #c6e1f0;
+  border: none;
+  margin-left: 40px;
+  font-weight: 600;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.stop_item:hover .button {
+  display: initial;
+}

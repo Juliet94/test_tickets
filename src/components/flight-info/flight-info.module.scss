@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  &_destination {
+    align-items: flex-end;
+  }
+}
+
+.time {
+  font-size: 24px;
+}
+
+.date {
+  color: #9f9e9e;
+}

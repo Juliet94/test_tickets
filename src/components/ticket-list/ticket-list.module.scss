@@ -1,0 +1,20 @@
+.list {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.wrapper_not_found {
+  padding: 0 10px;
+  display: flex;
+}
+
+.inner_wrapper {
+  background-color: #ffffff;
+  box-shadow: 0 5px 6px rgba(63, 63, 63, 0.2);
+  border-radius: 4px;
+  min-width: 565px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

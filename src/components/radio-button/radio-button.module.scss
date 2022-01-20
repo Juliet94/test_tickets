@@ -1,0 +1,45 @@
+.text {
+  text-transform: uppercase;
+
+  &_rub {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  &_usd {
+    border-radius: unset;
+  }
+
+  &_eur {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+
+.input + .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #9f9e9e;
+  color: #1ca5f2;
+  width: 75px;
+  height: 40px;
+  transition: border-color 0.2s ease-out,
+              background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+
+.input:hover + .text {
+  border-color: #1ca5f2;
+  background-color: #c6e1f0;
+  color: #1ca5f2;
+  cursor: pointer;
+}
+
+.input:checked + .text {
+  border-color: #1ca5f2;
+  background-color: #1ca5f2;
+  color: #ffffff;
+}
+
+
