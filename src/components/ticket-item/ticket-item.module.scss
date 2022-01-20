@@ -50,6 +50,9 @@
 
 .info {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
   padding: 15px 20px;
 }
 
